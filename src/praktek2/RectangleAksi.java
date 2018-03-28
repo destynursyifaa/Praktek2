@@ -6,6 +6,7 @@ public class RectangleAksi {
         rl.Harga_sapi = 1500000;
         rl.Jumlah_beli = 1;
         
+        rl.cetakInfo();
     }
  
 }
