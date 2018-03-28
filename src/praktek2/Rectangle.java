@@ -6,6 +6,12 @@ public class Rectangle {
     void cetakInfo(){
         System.out.println("Harga_sapi :"+Harga_sapi);
         System.out.println("Jumlah_beli :"+Jumlah_beli);
-        
+    }
+    
+        Integer hitungTotal(){
+            Integer Total;
+            Total = Harga_sapi*Jumlah_beli;
+            return Total;
+            
     }
 }
