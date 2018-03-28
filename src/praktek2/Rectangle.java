@@ -14,4 +14,9 @@ public class Rectangle {
             return Total;
             
     }
+        
+        void cetakTotal(){
+            System.out.println("Totalnya adalah: "+hitungTotal());
+            
+        }
 }
