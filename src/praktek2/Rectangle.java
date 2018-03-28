@@ -2,6 +2,11 @@ package praktek2;
 public class Rectangle {
     Integer Harga_sapi;
     Integer Jumlah_beli;
+
+    public Rectangle() {
+        Harga_sapi= 2500000;
+        Jumlah_beli= 2; 
+    }
     
     void cetakInfo(){
         System.out.println("Harga_sapi :"+Harga_sapi);
